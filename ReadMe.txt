@@ -6,4 +6,5 @@ Windows下新建 .gitignore 文件出现 “必须键入文件名”：
 4. 执行命令：ren gitignore.txt .gitignore
 
 
-测试
+丢弃工作区修改的命令： git checkout -- file
+版本回退的命令：git reset --hard commit_id
