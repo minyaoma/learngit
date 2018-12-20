@@ -7,4 +7,7 @@ Windows下新建 .gitignore 文件出现 “必须键入文件名”：
 
 
 丢弃工作区修改的命令： git checkout -- file
-版本回退的命令：git reset --hard commit_id
+版本回退的命令：git reset HEAD file
+
+
+擦，大小写敏感
