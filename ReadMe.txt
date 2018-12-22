@@ -22,3 +22,10 @@ Windows下新建 .gitignore 文件出现 “必须键入文件名”：
 此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
 
 Creating a new branch is quick.
+Git鼓励大量使用分支：
+查看分支：git branch
+创建分支：git branch <name>
+切换分支：git checkout <name>
+创建+切换分支：git checkout -b <name>
+合并某分支到当前分支：git merge <name>
+删除分支：git branch -d <name>
